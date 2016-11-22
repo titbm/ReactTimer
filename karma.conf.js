@@ -5,9 +5,9 @@ module.exports = function(config) {
     browsers:['Chrome'],
     singleRun: true,
     frameworks: ['mocha'],
-    files: ['src/tests/**/*.test.jsx'],
+    files: ['src/tests/**/*.test.js'],
     preprocessors: {
-      'src/tests/**/*.test.jsx': ['webpack', 'sourcemap']
+      'src/tests/**/*.test.js': ['webpack', 'sourcemap']
     },
     reporters: ['mocha'],
     client: {
